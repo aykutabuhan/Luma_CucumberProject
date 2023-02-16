@@ -19,6 +19,7 @@ public class ProductDetailPage extends BasePage{
     @FindBy(css = "div[data-ui-id='message-success'] div")
     private WebElement addedCartMessageText;
 
+
     public ProductDetailPage(WebDriver driver) {
         super(driver);
     }
@@ -35,7 +36,6 @@ public class ProductDetailPage extends BasePage{
     public void addToCartButton(){
         clickElement(addToCartButton);
     }
-
     public String getAddedCartMessage(){
         return getText(addedCartMessageText);
     }

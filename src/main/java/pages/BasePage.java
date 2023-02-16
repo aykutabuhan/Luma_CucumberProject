@@ -11,7 +11,6 @@ import java.time.Duration;
 import java.util.List;
 
 public class BasePage {
-
     protected WebDriver m_driver;
     protected WebDriverWait m_wait;
     private static final int DEFAULT_DURATION_TIME = 10;

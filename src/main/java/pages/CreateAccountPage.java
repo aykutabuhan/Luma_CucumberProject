@@ -22,6 +22,7 @@ public class CreateAccountPage extends BasePage{
     @FindBy(css = "div[class=\"message-success success message\"] div")
     private WebElement verificationMessage;
 
+
     public CreateAccountPage(WebDriver driver) {
         super(driver);
     }

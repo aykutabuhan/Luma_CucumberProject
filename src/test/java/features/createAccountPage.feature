@@ -17,3 +17,4 @@ Feature: user create new account
         | first name | last name | e-mail name             | password   | confirm password    |
         | Can        | Guclu     | deneme1923564@gmail.com | Deneme1234 | Deneme1234          |
         | Mert       | Kosar     | deneme19134563@gmail.com| Deneme1134 | Deneme1134          |
+

@@ -16,3 +16,4 @@ Feature: User select product size, color, qty and add cart
         | m    | 2   |
         | l    | 5   |
         | xl   | 4   |
+
